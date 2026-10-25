@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KusenKayu & Interior — Spesialis Kusen Pintu, Kitchen Set & Custom Furniture</title>
+  <meta name="description" content="Jasa pembuatan kusen pintu kayu solid, kusen aluminium, kitchen set, lemari pakaian custom, dan backdrop TV dengan pengerjaan presisi dan bergaransi." />
+
+  <!-- Google Fonts: Plus Jakarta Sans (Clean Modern Sans-Serif) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+          },
+          colors: {
+            walnut: {
+              DEFAULT: '#4A2E1B',
+              dark: '#331E10',
+              light: '#6B442A',
+            },
+            oak: {
+              DEFAULT: '#B6895B',
+              light: '#D4B08C',
+              dark: '#8E653D',
+            },
+            terracotta: {
+              DEFAULT: '#C86D51',
+              hover: '#B2593E',
+              light: '#F5E4DF',
+            },
+            charcoal: {
+              DEFAULT: '#1F1D1A',
+              muted: '#3A3530',
+            },
+            cream: {
+              DEFAULT: '#FAF6F0',
+              warm: '#F2EAE0',
+              border: '#E5D9C8',
+            }
+          },
+          boxShadow: {
+            'wood': '0 12px 32px -8px rgba(74, 46, 27, 0.12)',
+            'wood-lg': '0 20px 45px -12px rgba(31, 29, 26, 0.22)',
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* Subtle wood-inspired grain & custom decorative touches */
+    body {
+      background-color: #FAF6F0;
+      color: #1F1D1A;
+    }
+
+    .wood-frame-border {
+      background: linear-gradient(135deg, #6B442A 0%, #4A2E1B 50%, #331E10 100%);
+      padding: 14px;
+      border-radius: 1.25rem;
+      box-shadow: 0 25px 50px -12px rgba(51, 30, 16, 0.35), inset 0 1px 2px rgba(255, 255, 255, 0.2);
+    }
+
+    .wood-frame-inner {
+      border: 2px solid rgba(212, 176, 140, 0.45);
+      border-radius: 0.85rem;
+      overflow: hidden;
+    }
+
+    .card-hover {
+      transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.3s ease;
+    }
+
+    .card-hover:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 38px -10px rgba(74, 46, 27, 0.16);
+      border-color: #B6895B;
+    }
+  </style>
+</head>
+<body class="font-sans antialiased selection:bg-walnut selection:text-cream">
+
+  <!-- =========================================================================
+       1. HEADER / NAVBAR
+       Update brand name, navigation links, and top WhatsApp button below.
+       ========================================================================= -->
+  <header class="sticky top-0 z-50 bg-cream/95 backdrop-blur-md border-b border-cream-border transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Brand Logo Placeholder -->
+        <a href="#home" class="flex items-center gap-3 group focus:outline-none">
+          <div class="w-11 h-11 rounded-xl bg-walnut flex items-center justify-center text-cream shadow-md group-hover:bg-terracotta transition-colors">
+            <!-- Door Frame & Carpentry Icon -->
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 21h16M6 21V5a2 2 0 012-2h8a2 2 0 012 2v16M9 10h.01M14 3v18" />
+            </svg>
+          </div>
+          <div>
+            <!-- [EDIT BRAND NAME HERE] -->
+            <span class="block text-xl font-extrabold tracking-tight text-charcoal">
+              Jati<span class="text-terracotta">Kusen</span><span class="text-oak font-semibold">.id</span>
+            </span>
+            <span class="block text-xs font-medium text-charcoal-muted tracking-wider uppercase">
+              Woodworking &amp; Interior
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-8" aria-label="Navigasi Utama">
+          <a href="#home" class="text-sm font-semibold text-charcoal hover:text-terracotta transition-colors">Home</a>
+          <a href="#produk" class="text-sm font-semibold text-charcoal hover:text-terracotta transition-colors">Produk</a>
+          <a href="#keunggulan" class="text-sm font-semibold text-charcoal hover:text-terracotta transition-colors">Keunggulan</a>
+          <a href="#galeri" class="text-sm font-semibold text-charcoal hover:text-terracotta transition-colors">Galeri</a>
+          <a href="#kontak" class="text-sm font-semibold text-charcoal hover:text-terracotta transition-colors">Kontak</a>
+        </nav>
+
+        <!-- Quick-Contact CTA (Desktop) -->
+        <div class="hidden md:flex items-center gap-3">
+          <!-- [EDIT WHATSAPP URL / NUMBER HERE] -->
+          <a
+            href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20pembuatan%20kusen%2Finterior"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-wa-link="default"
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-walnut text-cream text-sm font-semibold hover:bg-walnut-dark shadow-sm hover:shadow-md transition-all"
+          >
+            <svg class="w-4 h-4 text-oak-light" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.124.556 4.119 1.528 5.847l-1.528 5.581 5.716-1.499c1.677.9 3.593 1.415 5.629 1.415 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/>
+            </svg>
+            <span>Konsultasi Gratis</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button
+          id="mobile-menu-btn"
+          type="button"
+          class="md:hidden inline-flex items-center justify-center p-2.5 rounded-xl text-charcoal hover:bg-cream-warm focus:outline-none"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+          aria-label="Buka menu navigasi"
+        >
+          <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="hidden md:hidden bg-cream border-b border-cream-border px-4 pt-3 pb-6 space-y-3">
+      <a href="#home" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-semibold text-charcoal hover:bg-cream-warm">Home</a>
+      <a href="#produk" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-semibold text-charcoal hover:bg-cream-warm">Produk</a>
+      <a href="#keunggulan" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-semibold text-charcoal hover:bg-cream-warm">Keunggulan</a>
+      <a href="#galeri" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-semibold text-charcoal hover:bg-cream-warm">Galeri</a>
+      <a href="#kontak" class="mobile-nav-link block px-3 py-2 rounded-lg text-base font-semibold text-charcoal hover:bg-cream-warm">Kontak</a>
+      <div class="pt-2">
+        <a
+          href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20pembuatan%20kusen%2Finterior"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-wa-link="default"
+          class="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-walnut text-cream text-sm font-semibold hover:bg-walnut-dark shadow-sm"
+        >
+          <span>Hubungi via WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         2. HERO SECTION & HERO FRAME
+         Features master craftsmanship headline, subheadline, dual CTAs, and
+         wooden architectural frame showcase.
+         ========================================================================= -->
+    <section id="home" class="relative overflow-hidden pt-10 pb-20 lg:pt-16 lg:pb-28 bg-gradient-to-b from-cream via-cream to-cream-warm">
+      <!-- Subtle Decorative Background Elements -->
+      <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-oak/10 blur-3xl pointer-events-none"></div>
+      <div class="absolute bottom-0 -left-24 w-80 h-80 rounded-full bg-terracotta/10 blur-3xl pointer-events-none"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10 items-center">
+          
+          <!-- Left Column: Copywriting & CTAs -->
+          <div class="lg:col-span-6 space-y-6">
+            <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-cream-warm border border-cream-border text-walnut text-xs font-bold uppercase tracking-wider">
+              <span class="w-2 h-2 rounded-full bg-terracotta animate-pulse"></span>
+              Spesialis Kusen &amp; Custom Interior Sejak 2014
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl lg:text-[3.25rem] font-extrabold text-charcoal leading-[1.15] tracking-tight">
+              Sentuhan <span class="text-walnut underline decoration-oak/60 decoration-4 underline-offset-4">Kriya Kayu</span> Presisi untuk Hunian Berkelas &amp; Tahan Lama.
+            </h1>
+
+            <p class="text-base sm:text-lg text-charcoal-muted leading-relaxed">
+              Mulai dari pembuatan <strong>kusen pintu kayu solid</strong> &amp; <strong>kusen aluminium modern</strong> hingga fabrikasi interior custom seperti <strong>kitchen set, lemari pakaian (wardrobe), dan backdrop TV</strong>—dirancang sesuai ukuran ruang Anda dengan material pilihan terbaik.
+            </p>
+
+            <!-- Primary CTA Buttons -->
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
+              <!-- [EDIT WHATSAPP URL / NUMBER HERE] -->
+              <a
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20pembuatan%20kusen%2Finterior"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-wa-link="default"
+                class="inline-flex items-center justify-center gap-3 px-7 py-4 rounded-xl bg-terracotta hover:bg-terracotta-hover text-white font-bold text-base shadow-lg shadow-terracotta/25 hover:shadow-xl transition-all"
+              >
+                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.124.556 4.119 1.528 5.847l-1.528 5.581 5.716-1.499c1.677.9 3.593 1.415 5.629 1.415 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/>
+                </svg>
+                <span>Hubungi via WhatsApp</span>
+              </a>
+
+              <a
+                href="#produk"
+                class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl bg-white border-2 border-walnut/20 hover:border-walnut text-walnut font-bold text-base shadow-sm hover:bg-cream-warm transition-all"
+              >
+                <span>Lihat Katalog Produk</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
+            </div>
+
+            <!-- Trust Metrics Bar -->
+            <div class="pt-6 border-t border-cream-border grid grid-cols-3 gap-4">
+              <div>
+                <p class="text-2xl sm:text-3xl font-extrabold text-walnut">850+</p>
+                <p class="text-xs sm:text-sm text-charcoal-muted font-medium">Proyek Terpasang</p>
+              </div>
+              <div>
+                <p class="text-2xl sm:text-3xl font-extrabold text-walnut">100%</p>
+                <p class="text-xs sm:text-sm text-charcoal-muted font-medium">Kayu Oven &amp; Grade A</p>
+              </div>
+              <div>
+                <p class="text-2xl sm:text-3xl font-extrabold text-walnut">Gratis</p>
+                <p class="text-xs sm:text-sm text-charcoal-muted font-medium">Survei &amp; Ukur Lokasi*</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Prominent "Hero Frame" Visual Showcase -->
+          <div class="lg:col-span-6">
+            <div class="relative mx-auto max-w-xl lg:max-w-none">
+              <!-- Outer Custom Wooden Door/Cabinet Frame -->
+              <div class="wood-frame-border">
+                <div class="wood-frame-inner relative bg-charcoal">
+                  <!-- [EDIT HERO IMAGE URL HERE] -->
+                  <img
+                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85"
+                    alt="Interior rumah modern dengan kusen kayu solid, panel dinding hangat, dan pencahayaan alami"
+                    class="w-full h-[380px] sm:h-[460px] object-cover object-center transform hover:scale-105 transition-transform duration-700"
+                  />
+                  <!-- Subtle Gradient Overlay -->
+                  <div class="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/20 to-transparent"></div>
+
+                  <!-- Caption Inside Hero Frame -->
+                  <div class="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6 flex flex-col sm:flex-row sm:items-end justify-between gap-4 text-cream">
+                    <div>
+                      <span class="inline-block px-2.5 py-1 rounded-md bg-oak/90 text-charcoal text-xs font-bold uppercase tracking-wider mb-2">
+                        Featured Craftsmanship
+                      </span>
+                      <h2 class="text-lg sm:text-xl font-bold text-white">
+                        Kusen Jati Perhutani &amp; Wall Panel Akustik
+                      </h2>
+                      <p class="text-xs sm:text-sm text-cream/85">
+                        Finishing Melamine Doff Natural — Tahan Cuaca &amp; Anti Rayap
+                      </p>
+                    </div>
+                    <div class="bg-white/15 backdrop-blur-md border border-white/25 rounded-xl px-3.5 py-2 text-right shrink-0">
+                      <span class="block text-[11px] uppercase tracking-wider text-cream/80">Garansi Konstruksi</span>
+                      <span class="text-sm font-bold text-oak-light">Hingga 5 Tahun</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Floating Material Badge -->
+              <div class="hidden sm:flex items-center gap-3.5 absolute -bottom-6 -left-6 bg-white px-5 py-3.5 rounded-2xl shadow-wood border border-cream-border">
+                <div class="w-10 h-10 rounded-xl bg-terracotta-light text-terracotta flex items-center justify-center font-bold">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-xs font-semibold text-charcoal-muted">Standar Fabrikasi</p>
+                  <p class="text-sm font-bold text-charcoal">Custom-Fit Presisi Milimeter</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. PRODUCT CATALOG / SERVICES SHOWCASE
+         Update product images, titles, material specs, and descriptions below.
+         ========================================================================= -->
+    <section id="produk" class="py-20 lg:py-28 bg-cream">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Section Heading -->
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="inline-block px-3.5 py-1 rounded-full bg-walnut/10 text-walnut text-xs font-bold uppercase tracking-widest mb-3">
+            Katalog Produk &amp; Layanan
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-charcoal tracking-tight">
+            Solusi Lengkap Kusen &amp; Interior Custom
+          </h2>
+          <p class="mt-4 text-base sm:text-lg text-charcoal-muted">
+            Setiap produk dibuat berdasarkan pesanan (<em>made-to-order</em>) mengikuti ukuran lapangan, gaya arsitektur, dan anggaran Anda.
+          </p>
+        </div>
+
+        <!-- 6-Card Product Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <!-- CARD 1: Kusen Pintu Kayu -->
+          <article class="bg-white rounded-2xl border border-cream-border overflow-hidden shadow-wood card-hover flex flex-col">
+            <div class="relative h-60 overflow-hidden bg-charcoal">
+              <!-- [EDIT PRODUCT 1 IMAGE URL HERE] -->
+              <img
+                src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+                alt="Kusen Pintu Kayu Solid dengan serat alami"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-lg bg-walnut/90 backdrop-blur-sm text-cream text-xs font-semibold">
+                Best Seller
+              </span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between space-y-5">
+              <div>
+                <h3 class="text-xl font-bold text-charcoal mb-2">Kusen Pintu Kayu</h3>
+                <p class="text-sm text-charcoal-muted leading-relaxed mb-4">
+                  Kusen dan daun pintu kayu solid dengan keindahan serat alami, sambungan <em>mortise-tenon</em> kokoh, serta sudah melalui proses pengeringan kiln-dry.
+                </p>
+                <div class="bg-cream rounded-xl p-3.5 border border-cream-border/80 space-y-1.5 text-xs">
+                  <div class="flex justify-between">
+                    <span class="font-semibold text-charcoal-muted">Material:</span>
+                    <span class="font-bold text-walnut">Jati, Merbau, Kamper Samarinda</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="font-semibold text-charcoal-muted">Finishing:</span>
+                    <span class="font-medium text-charcoal">PU / Melamine / Duco</span>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20pembuatan%20Kusen%20Pintu%20Kayu"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-wa-product="Kusen Pintu Kayu"
+                class="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-walnut hover:bg-terracotta text-cream text-sm font-semibold transition-colors"
+              >
+                <span>Tanya Harga Kusen Kayu</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 2: Kusen Pintu Aluminium -->
+          <article class="bg-white rounded-2xl border border-cream-border overflow-hidden shadow-wood card-hover flex flex-col">
+            <div class="relative h-60 overflow-hidden bg-charcoal">
+              <!-- [EDIT PRODUCT 2 IMAGE URL HERE] -->
+              <img
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80"
+                alt="Kusen Pintu dan Jendela Aluminium Modern Minimalis"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-lg bg-charcoal/90 backdrop-blur-sm text-cream text-xs font-semibold">
+                Modern &amp; Anti Rayap
+              </span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between space-y-5">
+              <div>
+                <h3 class="text-xl font-bold text-charcoal mb-2">Kusen Pintu Aluminium</h3>
+                <p class="text-sm text-charcoal-muted leading-relaxed mb-4">
+                  Rangka kusen pintu lipat, sliding, maupun swing berbahan aluminium presisi tinggi. Tahan cuaca ekstrem, bebas rayap, dan kedap suara.
+                </p>
+                <div class="bg-cream rounded-xl p-3.5 border border-cream-border/80 space-y-1.5 text-xs">
+                  <div class="flex justify-between">
+                    <span class="font-semibold text-charcoal-muted">Material:</span>
+                    <span class="font-bold text-walnut">YKK AP, Alexindo, Inkalum</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="font-semibold text-charcoal-muted">Finishing:</span>
+                    <span class="font-medium text-charcoal">Powder Coating / Anodized / Urat Kayu</span>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20pembuatan%20Kusen%20Pintu%20Aluminium"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-wa-product="Kusen Pintu Aluminium"
+                class="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-walnut hover:bg-terracotta text-cream text-sm font-semibold transition-colors"
+              >
+                <span>Tanya Harga Kusen Aluminium</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 3: Kitchen Set -->
+          <article class="bg-white rounded-2xl border border-cream-border overflow-hidden shadow-wood card-hover flex flex-col">
+            <div class="relative h-60 overflow-hidden bg-charcoal">
+              <!-- [EDIT PRODUCT 3 IMAGE URL HERE] -->
+              <img
+                src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80"
+                alt="Kitchen Set Custom Kayu Modern Minimalis"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-lg bg-terracotta text-white text-xs font-semibold">
+                Favorit Keluarga
+              </span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between space-y-5">
+              <div>
+                <h3 class="text-xl font-bold text-charcoal mb-2">Kitchen Set Custom</h3>
+                <p class="text-sm text-charcoal-muted leading-relaxed mb-4">
+                  Kabinet dapur atas &amp; bawah beserta <em>island</em> yang dirancang ergonomis. Dilengkapi engsel <em>soft-close</em> dan tata ruang penyimpanan cerdas.
+                </p>
+                <div class="bg-cream rounded-xl p-3.5 border border-cream-border/80 space-y-1.5 text-xs">
+                  <div class="flex justify-between">
+                    <span class="font-semibold text-charcoal-muted">Material:</span>
+                    <span class="font-bold text-walnut">Plywood 18mm / PVC Board Anti Air</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="font-semibold text-charcoal-muted">Top Table:</span>
+                    <span class="font-medium text-charcoal">Granit Alam, Marmer, Solid Surface</span>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20pembuatan%20Kitchen%20Set"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-wa-product="Kitchen Set Custom"
+                class="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-walnut hover:bg-terracotta text-cream text-sm font-semibold transition-colors"
+              >
+                <span>Konsultasi Kitchen Set</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 4: Lemari / Custom Wardrobe -->
+          <article class="bg-white rounded-2xl border border-cream-border overflow-hidden shadow-wood card-hover flex flex-col">
+            <div class="relative h-60 overflow-hidden bg-charcoal">
+              <!-- [EDIT PRODUCT 4 IMAGE URL HERE] -->
+              <img
+                src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80"
+                alt="Lemari Pakaian Built-in dan Walk-in Closet Minimalis"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-lg bg-walnut/90 backdrop-blur-sm text-cream text-xs font-semibold">
+                Full Plafon
+              </span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between space-y-5">
+              <div>
+                <h3 class="text-xl font-bold text-charcoal mb-2">Lemari / Custom Wardrobe</h3>
+                <p class="text-sm text-charcoal-muted leading-relaxed mb-4">
+                  Pembuatan <em>walk-in closet</em> dan lemari pakaian <em>built-in</em> penuh hingga plafon. Dilengkapi kompartemen custom dan lampu LED sensor hangat.
+                </p>
+                <div class="bg-cream rounded-xl p-3.5 border border-cream-border/80 space-y-1.5 text-xs">
+                  <div class="flex justify-between">
+                    <span class="font-semibold text-charcoal-muted">Material:</span>
+                    <span class="font-bold text-walnut">Blockmin &amp; Multiplek Meranti 18mm</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="font-semibold text-charcoal-muted">Finishing:</span>
+                    <span class="font-medium text-charcoal">HPL Taco, Kaca Cermin, Frame Aluminium</span>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20pembuatan%20Lemari%20Custom%20Wardrobe"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-wa-product="Lemari / Custom Wardrobe"
+                class="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-walnut hover:bg-terracotta text-cream text-sm font-semibold transition-colors"
+              >
+                <span>Konsultasi Lemari Custom</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 5: Backdrop TV & Wall Panel -->
+          <article class="bg-white rounded-2xl border border-cream-border overflow-hidden shadow-wood card-hover flex flex-col">
+            <div class="relative h-60 overflow-hidden bg-charcoal">
+              <!-- [EDIT PRODUCT 5 IMAGE URL HERE] -->
+              <img
+                src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80"
+                alt="Backdrop TV dan Wall Panel Kisi-kisi Kayu Ruang Keluarga"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-lg bg-oak-dark text-white text-xs font-semibold">
+                Estetik &amp; Rapi
+              </span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between space-y-5">
+              <div>
+                <h3 class="text-xl font-bold text-charcoal mb-2">Backdrop TV &amp; Wall Panel</h3>
+                <p class="text-sm text-charcoal-muted leading-relaxed mb-4">
+                  Hadirkan focal point mewah di ruang keluarga atau kamar utama dengan panel kisi-kisi kayu (<em>fluted panel</em>), ambalan melayang, dan jalur kabel tersembunyi.
+                </p>
+                <div class="bg-cream rounded-xl p-3.5 border border-cream-border/80 space-y-1.5 text-xs">
+                  <div class="flex justify-between">
+                    <span class="font-semibold text-charcoal-muted">Material:</span>
+                    <span class="font-bold text-walnut">Plywood, WPC Panel, Kisi Kayu Solid</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="font-semibold text-charcoal-muted">Aksen:</span>
+                    <span class="font-medium text-charcoal">Hidden Warm LED Strip &amp; Marmer UV</span>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20pembuatan%20Backdrop%20TV%20dan%20Wall%20Panel"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-wa-product="Backdrop TV & Wall Panel"
+                class="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-walnut hover:bg-terracotta text-cream text-sm font-semibold transition-colors"
+              >
+                <span>Konsultasi Backdrop TV</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 6: Custom Furniture Lainnya -->
+          <article class="bg-white rounded-2xl border border-cream-border overflow-hidden shadow-wood card-hover flex flex-col">
+            <div class="relative h-60 overflow-hidden bg-charcoal">
+              <!-- [EDIT PRODUCT 6 IMAGE URL HERE] -->
+              <img
+                src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=800&q=80"
+                alt="Meja Kerja Kayu Custom, Partisi Ruangan, dan Credenza"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+              <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-lg bg-charcoal/90 backdrop-blur-sm text-cream text-xs font-semibold">
+                Bespoke Design
+              </span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between space-y-5">
+              <div>
+                <h3 class="text-xl font-bold text-charcoal mb-2">Custom Furniture Lainnya</h3>
+                <p class="text-sm text-charcoal-muted leading-relaxed mb-4">
+                  Melayani pembuatan meja kerja direksi, partisi penyekat ruangan dua sisi, <em>credenza</em>, meja makan kayu utuh, hingga kabinet bawah tangga.
+                </p>
+                <div class="bg-cream rounded-xl p-3.5 border border-cream-border/80 space-y-1.5 text-xs">
+                  <div class="flex justify-between">
+                    <span class="font-semibold text-charcoal-muted">Material:</span>
+                    <span class="font-bold text-walnut">Kayu Solid Pilihan / Plywood Grade A</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="font-semibold text-charcoal-muted">Kombinasi:</span>
+                    <span class="font-medium text-charcoal">Besi Hollow Powder Coated, Rotan, Kaca</span>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20pembuatan%20Custom%20Furniture"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-wa-product="Custom Furniture Lainnya"
+                class="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-walnut hover:bg-terracotta text-cream text-sm font-semibold transition-colors"
+              >
+                <span>Konsultasi Custom Furniture</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. WHY CHOOSE US (KEUNGGULAN)
+         Highlights custom sizing, premium wood & aluminium grading, precision
+         installation, and warranty.
+         ========================================================================= -->
+    <section id="keunggulan" class="py-20 lg:py-28 bg-walnut text-cream relative overflow-hidden">
+      <!-- Subtle Decorative Pattern -->
+      <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(#D4B08C 1px, transparent 1px); background-size: 28px 28px;"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Left Intro -->
+          <div class="lg:col-span-5 space-y-5">
+            <span class="inline-block px-3.5 py-1 rounded-full bg-oak/25 text-oak-light text-xs font-bold uppercase tracking-widest">
+              Mengapa Memilih Kami
+            </span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight">
+              Kualitas Tukang Berpengalaman dengan Standar Workshop Modern
+            </h2>
+            <p class="text-cream/80 text-base leading-relaxed">
+              Kami memahami bahwa kusen pintu dan kabinet interior adalah investasi jangka panjang. Karena itu, setiap tahap mulai dari pemilihan bahan baku hingga instalasi akhir diawasi secara ketat.
+            </p>
+            <div class="pt-2">
+              <a
+                href="#kontak"
+                class="inline-flex items-center gap-2 text-oak-light hover:text-white font-bold text-sm transition-colors"
+              >
+                <span>Jadwalkan Survei Pengukuran ke Lokasi Anda</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right 4 Pillars Grid -->
+          <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            
+            <!-- Feature 1: Custom Sizing -->
+            <div class="bg-walnut-dark/80 border border-oak/25 rounded-2xl p-6 hover:border-oak transition-colors">
+              <div class="w-12 h-12 rounded-xl bg-terracotta text-white flex items-center justify-center mb-4 shadow-md">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-bold text-white mb-2">100% Custom-Made Presisi</h3>
+              <p class="text-sm text-cream/75 leading-relaxed">
+                Ukuran, pembagian sekat, warna finishing, dan model disesuaikan sepenuhnya dengan dimensi aktual ruangan Anda—tanpa celah sisa yang mengganggu estetika.
+              </p>
+            </div>
+
+            <!-- Feature 2: Premium Wood & Aluminium Grading -->
+            <div class="bg-walnut-dark/80 border border-oak/25 rounded-2xl p-6 hover:border-oak transition-colors">
+              <div class="w-12 h-12 rounded-xl bg-oak text-charcoal flex items-center justify-center mb-4 shadow-md">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-bold text-white mb-2">Material Kayu Oven &amp; Aluminium Grade A</h3>
+              <p class="text-sm text-cream/75 leading-relaxed">
+                Hanya menggunakan kayu solid kering oven (meminimalkan muai-susut &amp; melengkung), multiplek padat anti-lembap, serta profil aluminium berstandar SNI.
+              </p>
+            </div>
+
+            <!-- Feature 3: Precision Installation -->
+            <div class="bg-walnut-dark/80 border border-oak/25 rounded-2xl p-6 hover:border-oak transition-colors">
+              <div class="w-12 h-12 rounded-xl bg-oak text-charcoal flex items-center justify-center mb-4 shadow-md">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-bold text-white mb-2">Pemasangan Rapi &amp; Tepat Waktu</h3>
+              <p class="text-sm text-cream/75 leading-relaxed">
+                Fabrikasi utama dikerjakan di workshop kami sehingga proses instalasi di rumah Anda berlangsung cepat, bersih, minim debu, dan sesuai jadwal.
+              </p>
+            </div>
+
+            <!-- Feature 4: Warranty -->
+            <div class="bg-walnut-dark/80 border border-oak/25 rounded-2xl p-6 hover:border-oak transition-colors">
+              <div class="w-12 h-12 rounded-xl bg-terracotta text-white flex items-center justify-center mb-4 shadow-md">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 class="text-lg font-bold text-white mb-2">Bergaransi Resmi &amp; Layanan Purna Jual</h3>
+              <p class="text-sm text-cream/75 leading-relaxed">
+                Jaminan garansi konstruksi, engsel, rel laci, serta penyetelan ulang pintu apabila terjadi perubahan struktur bangunan selama masa garansi.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         GALLERY SECTION (Supports Navbar 'Galeri' Link)
+         Update portfolio images below.
+         ========================================================================= -->
+    <section id="galeri" class="py-20 lg:py-24 bg-cream-warm border-b border-cream-border">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+          <div>
+            <span class="inline-block px-3.5 py-1 rounded-full bg-walnut/10 text-walnut text-xs font-bold uppercase tracking-widest mb-3">
+              Portofolio Proyek
+            </span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-charcoal tracking-tight">
+              Galeri Hasil Pengerjaan Kami
+            </h2>
+          </div>
+          <p class="text-sm sm:text-base text-charcoal-muted max-w-md">
+            Dokumentasi beberapa proyek kusen pintu utama, kitchen set, dan kabinet custom pada hunian klien kami.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <!-- [EDIT GALLERY IMAGE 1 HERE] -->
+          <div class="group relative h-72 rounded-2xl overflow-hidden shadow-sm border border-cream-border">
+            <img
+              src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=700&q=80"
+              alt="Proyek Pintu Utama Kayu Jati Double Swing"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-charcoal/85 via-charcoal/20 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-xs font-bold text-oak-light uppercase">Kusen &amp; Pintu Kayu</span>
+                <h3 class="text-sm font-bold text-white">Pintu Utama Jati Double Swing — BSD City</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- [EDIT GALLERY IMAGE 2 HERE] -->
+          <div class="group relative h-72 rounded-2xl overflow-hidden shadow-sm border border-cream-border">
+            <img
+              src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=700&q=80"
+              alt="Proyek Kitchen Set Letter L HPL Motif Oak"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-charcoal/85 via-charcoal/20 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-xs font-bold text-oak-light uppercase">Kitchen Set</span>
+                <h3 class="text-sm font-bold text-white">Pantry Modern Tropis Top Granit — Bintaro</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- [EDIT GALLERY IMAGE 3 HERE] -->
+          <div class="group relative h-72 rounded-2xl overflow-hidden shadow-sm border border-cream-border">
+            <img
+              src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=700&q=80"
+              alt="Proyek Backdrop TV dan Wall Panel Ruang Tamu"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-charcoal/85 via-charcoal/20 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-xs font-bold text-oak-light uppercase">Wall Panel &amp; Credenza</span>
+                <h3 class="text-sm font-bold text-white">Living Room Fluted Panel — Jakarta Selatan</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- [EDIT GALLERY IMAGE 4 HERE] -->
+          <div class="group relative h-72 rounded-2xl overflow-hidden shadow-sm border border-cream-border">
+            <img
+              src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=700&q=80"
+              alt="Proyek Kusen Pintu Geser Aluminium Kaca Taman"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-charcoal/85 via-charcoal/20 to-transparent flex items-end p-5">
+              <div>
+                <span class="text-xs font-bold text-oak-light uppercase">Kusen Aluminium</span>
+                <h3 class="text-sm font-bold text-white">Pintu Sliding Kaca Balkon &amp; Taman — Bekasi</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. DIRECT WHATSAPP & CONSULTATION SECTION (wa.me Integration)
+         Update WhatsApp link, phone numbers, and workshop address below.
+         ========================================================================= -->
+    <section id="kontak" class="py-20 lg:py-28 bg-cream">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-3xl border-2 border-cream-border shadow-wood-lg overflow-hidden">
+          <div class="grid grid-cols-1 lg:grid-cols-12">
+            
+            <!-- Left Conversion Column: Direct WhatsApp CTA -->
+            <div class="lg:col-span-7 p-8 sm:p-12 lg:p-14 flex flex-col justify-between bg-gradient-to-br from-white via-white to-cream-warm">
+              <div class="space-y-5">
+                <span class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-terracotta-light text-terracotta text-xs font-bold uppercase tracking-wider">
+                  Respon Cepat via WhatsApp
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-charcoal leading-tight">
+                  Siap Wujudkan Kusen &amp; Interior Impian Anda?
+                </h2>
+                <p class="text-base text-charcoal-muted leading-relaxed">
+                  Diskusikan kebutuhan ukuran, pilihan kayu/aluminium, atau kirimkan referensi desain Anda. Tim kami siap memberikan <strong>estimasi biaya transparan</strong> dan menjadwalkan survei ke lokasi Anda.
+                </p>
+
+                <!-- Step Checklist -->
+                <ul class="space-y-2.5 pt-2 text-sm text-charcoal font-medium">
+                  <li class="flex items-center gap-3">
+                    <span class="w-5 h-5 rounded-full bg-walnut text-cream flex items-center justify-center text-xs font-bold">1</span>
+                    <span>Konsultasi kebutuhan &amp; estimasi harga awal via WhatsApp</span>
+                  </li>
+                  <li class="flex items-center gap-3">
+                    <span class="w-5 h-5 rounded-full bg-walnut text-cream flex items-center justify-center text-xs font-bold">2</span>
+                    <span>Survei pengukuran lokasi &amp; pemilihan sampel material/HPL</span>
+                  </li>
+                  <li class="flex items-center gap-3">
+                    <span class="w-5 h-5 rounded-full bg-walnut text-cream flex items-center justify-center text-xs font-bold">3</span>
+                    <span>Produksi di workshop &amp; instalasi rapi bergaransi di lokasi Anda</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Primary WhatsApp Conversion Button -->
+              <div class="pt-8 mt-8 border-t border-cream-border">
+                <!-- =============================================================
+                     [EDIT PRIMARY WHATSAPP LINK HERE]
+                     Replace 6281234567890 with your active WhatsApp number (use country code 62 without +)
+                     and customize the URL-encoded ?text= parameter if desired.
+                     ============================================================= -->
+                <a
+                  id="primary-wa-cta"
+                  href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20pembuatan%20kusen%2Finterior"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-wa-link="default"
+                  class="w-full sm:w-auto inline-flex items-center justify-center gap-3.5 px-8 py-4 rounded-2xl bg-[#25D366] hover:bg-[#1EBE5B] text-white font-extrabold text-base sm:text-lg shadow-lg shadow-[#25D366]/30 hover:shadow-xl transition-all"
+                >
+                  <svg class="w-6 h-6 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.124.556 4.119 1.528 5.847l-1.528 5.581 5.716-1.499c1.677.9 3.593 1.415 5.629 1.415 6.627 0 12-5.373 12-12s-5.373-12-12-12z"/>
+                  </svg>
+                  <span>Chat WhatsApp Sekarang</span>
+                </a>
+                <p class="mt-3 text-xs text-charcoal-muted">
+                  Klik tombol di atas untuk terhubung langsung ke WhatsApp Admin Workshop kami.
+                </p>
+              </div>
+            </div>
+
+            <!-- Right Column: Direct Phone Numbers & Workshop Address -->
+            <div class="lg:col-span-5 bg-charcoal text-cream p-8 sm:p-12 lg:p-14 flex flex-col justify-between space-y-8">
+              <div>
+                <h3 class="text-xl font-bold text-white mb-6 pb-4 border-b border-white/10">
+                  Informasi Kontak &amp; Workshop
+                </h3>
+
+                <div class="space-y-6">
+                  <!-- [EDIT BUSINESS PHONE NUMBERS HERE] -->
+                  <div class="flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-xl bg-walnut text-oak-light flex items-center justify-center shrink-0 mt-0.5">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="text-xs font-semibold uppercase tracking-wider text-oak-light">Telepon / WhatsApp</p>
+                      <a href="tel:+6281234567890" id="display-whatsapp-phone" class="block text-base font-bold text-white hover:text-oak-light transition-colors mt-0.5">
+                        +62 812-3456-7890 (Admin 1)
+                      </a>
+                      <a href="tel:+622187654321" id="display-office-phone" class="block text-sm text-cream/75 hover:text-white transition-colors">
+                        (021) 8765-4321 (Telepon Workshop)
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- [EDIT WORKSHOP ADDRESS HERE] -->
+                  <div class="flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-xl bg-walnut text-oak-light flex items-center justify-center shrink-0 mt-0.5">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="text-xs font-semibold uppercase tracking-wider text-oak-light">Alamat Workshop &amp; Showroom</p>
+                      <p id="display-workshop-address" class="text-sm text-cream/90 leading-relaxed mt-1">
+                        Jl. Raya Industri Perkreditan Kayu No. 88, Kawasan Workshop Kerajinan, Kec. Serpong, Tangerang Selatan, Banten 15310
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- [EDIT OPERATIONAL HOURS HERE] -->
+                  <div class="flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-xl bg-walnut text-oak-light flex items-center justify-center shrink-0 mt-0.5">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p class="text-xs font-semibold uppercase tracking-wider text-oak-light">Jam Operasional Workshop</p>
+                      <p class="text-sm text-cream/90 mt-1">Senin – Sabtu: 08.00 – 17.00 WIB</p>
+                      <p class="text-xs text-cream/65">Minggu &amp; Hari Libur: Berdasarkan Janji Temu</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Service Coverage Note -->
+              <div class="bg-white/5 border border-white/10 rounded-2xl p-4">
+                <p class="text-xs text-cream/80 leading-relaxed">
+                  <strong class="text-oak-light">Area Layanan:</strong> Melayani pengiriman dan pemasangan langsung untuk wilayah Jabodetabek, Bandung, dan sekitarnya.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       6. FOOTER
+       Quick links, operational hours, social media placeholders, and copyright.
+       ========================================================================= -->
+  <footer class="bg-charcoal text-cream border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        
+        <!-- Column 1: Brand Summary -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-walnut flex items-center justify-center text-cream">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 21h16M6 21V5a2 2 0 012-2h8a2 2 0 012 2v16M9 10h.01M14 3v18" />
+              </svg>
+            </div>
+            <span class="text-xl font-extrabold tracking-tight text-white">
+              Jati<span class="text-terracotta">Kusen</span><span class="text-oak font-semibold">.id</span>
+            </span>
+          </div>
+          <p class="text-sm text-cream/70 leading-relaxed">
+            Workshop spesialis pembuatan kusen pintu kayu solid, kusen aluminium, kitchen set, lemari pakaian custom, dan interior fabrikasi presisi tinggi.
+          </p>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div>
+          <h4 class="text-sm font-bold uppercase tracking-wider text-oak-light mb-4">Navigasi Cepat</h4>
+          <ul class="space-y-2.5 text-sm text-cream/75">
+            <li><a href="#home" class="hover:text-white transition-colors">Beranda</a></li>
+            <li><a href="#produk" class="hover:text-white transition-colors">Katalog Produk</a></li>
+            <li><a href="#keunggulan" class="hover:text-white transition-colors">Keunggulan Kami</a></li>
+            <li><a href="#galeri" class="hover:text-white transition-colors">Galeri Proyek</a></li>
+            <li><a href="#kontak" class="hover:text-white transition-colors">Hubungi Kami</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Layanan Utama -->
+        <div>
+          <h4 class="text-sm font-bold uppercase tracking-wider text-oak-light mb-4">Layanan Utama</h4>
+          <ul class="space-y-2.5 text-sm text-cream/75">
+            <li><a href="#produk" class="hover:text-white transition-colors">Kusen &amp; Daun Pintu Kayu</a></li>
+            <li><a href="#produk" class="hover:text-white transition-colors">Kusen Pintu &amp; Jendela Aluminium</a></li>
+            <li><a href="#produk" class="hover:text-white transition-colors">Kitchen Set Minimalis &amp; Klasik</a></li>
+            <li><a href="#produk" class="hover:text-white transition-colors">Walk-in Closet &amp; Lemari Pakaian</a></li>
+            <li><a href="#produk" class="hover:text-white transition-colors">Backdrop TV &amp; Wall Panel Kayu</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Jam Operasional & Social Media Placeholders -->
+        <div class="space-y-4">
+          <h4 class="text-sm font-bold uppercase tracking-wider text-oak-light">Jam Operasional</h4>
+          <p class="text-sm text-cream/75 leading-relaxed">
+            Senin – Sabtu: 08.00 – 17.00 WIB<br />
+            Minggu: Dengan Janji Survei
+          </p>
+          <div class="pt-2">
+            <p class="text-xs font-semibold uppercase tracking-wider text-cream/60 mb-3">Ikuti Media Sosial Kami</p>
+            <!-- [EDIT SOCIAL MEDIA LINKS HERE] -->
+            <div class="flex items-center gap-3">
+              <a href="#" aria-label="Instagram" class="w-9 h-9 rounded-lg bg-white/10 hover:bg-terracotta flex items-center justify-center text-white transition-colors">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              </a>
+              <a href="#" aria-label="Facebook" class="w-9 h-9 rounded-lg bg-white/10 hover:bg-terracotta flex items-center justify-center text-white transition-colors">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+              </a>
+              <a href="#" aria-label="YouTube" class="w-9 h-9 rounded-lg bg-white/10 hover:bg-terracotta flex items-center justify-center text-white transition-colors">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright Notice -->
+      <div class="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-cream/60">
+        <p>&copy; <span id="current-year">2026</span> JatiKusen.id — Spesialis Kusen Pintu &amp; Interior Custom. Seluruh hak cipta dilindungi.</p>
+        <p>Dibuat dengan dedikasi untuk kualitas pertukangan kayu &amp; interior Indonesia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       CONFIGURATION & INTERACTIVITY SCRIPT
+       You can easily change your WhatsApp number, prefilled text, phone number,
+       and workshop address in ONE place below, and it will automatically sync
+       across all buttons on the page!
+       ========================================================================= -->
+  <script>
+    // =========================================================================
+    // [QUICK CONFIGURATION VARIABLES — EDIT YOUR BUSINESS DETAILS HERE]
+    // =========================================================================
+    const BUSINESS_CONFIG = {
+      // 1. Nomor WhatsApp tujuan (Gunakan kode negara 62 di depan, tanpa tanda + atau spasi)
+      whatsappNumber: '6281234567890',
+
+      // 2. Pesan otomatis (prefilled text) saat tombol utama WhatsApp diklik
+      defaultWhatsappMessage: 'Halo, saya ingin konsultasi pembuatan kusen/interior',
+
+      // 3. Tampilan nomor telepon & alamat workshop (opsional jika ingin diubah via JS)
+      displayWhatsappPhone: '+62 812-3456-7890 (Admin 1)',
+      displayOfficePhone: '(021) 8765-4321 (Telepon Workshop)',
+      workshopAddress: 'Jl. Raya Industri Perkreditan Kayu No. 88, Kawasan Workshop Kerajinan, Kec. Serpong, Tangerang Selatan, Banten 15310'
+    };
+
+    // Sinkronisasi seluruh link WhatsApp utama & kartu produk dengan konfigurasi di atas
+    document.addEventListener('DOMContentLoaded', () => {
+      const encodedDefaultText = encodeURIComponent(BUSINESS_CONFIG.defaultWhatsappMessage);
+      const baseWaUrl = `https://wa.me/${BUSINESS_CONFIG.whatsappNumber}?text=${encodedDefaultText}`;
+
+      // Update semua tombol WhatsApp utama
+      document.querySelectorAll('[data-wa-link="default"]').forEach((link) => {
+        link.setAttribute('href', baseWaUrl);
+      });
+
+      // Update semua tombol WhatsApp spesifik produk pada katalog
+      document.querySelectorAll('[data-wa-product]').forEach((productLink) => {
+        const productName = productLink.getAttribute('data-wa-product');
+        const customMessage = encodeURIComponent(`Halo, saya ingin konsultasi pembuatan ${productName}`);
+        productLink.setAttribute('href', `https://wa.me/${BUSINESS_CONFIG.whatsappNumber}?text=${customMessage}`);
+      });
+
+      // Update tampilan nomor telepon & alamat jika elemen tersedia
+      const waPhoneEl = document.getElementById('display-whatsapp-phone');
+      const officePhoneEl = document.getElementById('display-office-phone');
+      const addressEl = document.getElementById('display-workshop-address');
+      if (waPhoneEl) waPhoneEl.textContent = BUSINESS_CONFIG.displayWhatsappPhone;
+      if (officePhoneEl) officePhoneEl.textContent = BUSINESS_CONFIG.displayOfficePhone;
+      if (addressEl) addressEl.textContent = BUSINESS_CONFIG.workshopAddress;
+
+      // Tahun otomatis pada footer
+      const yearEl = document.getElementById('current-year');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+      // Navigasi Mobile Toggle
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const iconOpen = document.getElementById('menu-icon-open');
+      const iconClose = document.getElementById('menu-icon-close');
+
+      if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', () => {
+          const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
+          mobileMenuBtn.setAttribute('aria-expanded', String(!isExpanded));
+          mobileMenu.classList.toggle('hidden');
+          iconOpen.classList.toggle('hidden');
+          iconClose.classList.toggle('hidden');
+        });
+
+        // Tutup menu mobile otomatis saat link diklik
+        document.querySelectorAll('.mobile-nav-link').forEach((navLink) => {
+          navLink.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            mobileMenuBtn.setAttribute('aria-expanded', 'false');
+            iconOpen.classList.remove('hidden');
+            iconClose.classList.add('hidden');
+          });
+        });
+      }
+    });
+  </script>
+</body>
+</html>
